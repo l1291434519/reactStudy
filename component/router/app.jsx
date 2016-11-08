@@ -25,6 +25,9 @@ class Comment2 extends React.Component {
 
 class BoxCom extends React.Component {
 	render(){
+    $.get('http://localhost/readerself/frontend/web/index.php?r=reader/api',function(result){
+      console.log(result);
+    });
 		return(
 			<div>
 			 box Component
