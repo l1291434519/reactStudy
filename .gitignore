@@ -3,5 +3,7 @@
 /rr/node_modules
 
 
+node_modules/
+
 #files
 /caches/error_log.php

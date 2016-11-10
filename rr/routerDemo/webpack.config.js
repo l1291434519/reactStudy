@@ -3,7 +3,7 @@
 	
    output: {
       path:'./',
-      filename: 'index.js',
+      filename: 'index.min.js',
    },
 	
    devServer: {

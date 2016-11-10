@@ -1,0 +1,16 @@
+html{}
+#appContent {font-size: 0.2rem;}
+
+li {display: inline; }
+li a{    display: inline-block; margin: 0 0.1rem; padding: 0.5rem auto;}
+
+
+/* 动画  */
+.example-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+}
